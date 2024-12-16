@@ -8,7 +8,7 @@ from sklearn.preprocessing import MinMaxScaler
 def load_data():
     """Load the CSV file into a DataFrame."""
     try:
-        data = pd.read_csv("./../data/original_Values.csv", header=None, index_col=None)
+        data = pd.read_csv("data/original_Values.csv", header=None, index_col=None)
         labels = data.iloc[:, -3:]  # Last 3 columns for labels
         data = data.iloc[:, 1:-3]  # Exclude the first column and last 3 columns
         return data, labels
