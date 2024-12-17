@@ -87,7 +87,7 @@ def main():
 
             # Title to be reused for all visualizations
             title = (
-                f"Example at Location: {location}, Crystal System: {int(filtered_label[0])}, "
+                f"Example at Index: {location}, Crystal System: {int(filtered_label[0])}, "
                 f"Extinction Group: {int(filtered_label[1])}, Space Group: {int(filtered_label[2])}"
             )
 
